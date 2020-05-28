@@ -1,7 +1,7 @@
 ---
 title: "Teaching experience 2"
 collection: teaching
-type: "Lecture"
+type: "Undergraduate course"
 permalink: /teaching/2019-spring-teaching-1
 venue: "University of Ottawa, Telfer School of Management"
 date: 2019-09-01
