@@ -84,9 +84,9 @@ author:
   avatar           : "profile.png"
   bio              : "Senior Scientist in Operations Research and Data Science"
   location         : "Ottawa, Canada"
-  employer         :
+  employer         : "Bank of Canada"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.ca/citations?user=GQ9CSjgAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
