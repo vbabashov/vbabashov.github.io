@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Industrial Engineering, Qafqaz University, 2007
+* M.S. in Industrial Engineering, University of Pittsburgh, 2010
+* M.S. in Biostatistics & Epidemiology, Western University, 2012
+* Ph.D in Advanced Analytics, Telfer School of Management, University of Management, 2020 (expected)
 
 Work experience
 ======
@@ -29,12 +30,10 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* R
+* Java
+* SQL
 
 Publications
 ======
