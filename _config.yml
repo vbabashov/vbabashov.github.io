@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Vusal Babashov"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Senior Scientist in Operations Research and Data Science"
   location         : "Ottawa, Canada"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "vbabashov"
   vine             :
   weibo            :
   xing             :
