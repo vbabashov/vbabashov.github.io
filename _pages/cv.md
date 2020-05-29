@@ -25,13 +25,12 @@ Work experience
 
 * Fall 2016 - : Research Assistant
   * Telfer School of Management, University of Ottawa
-  * Supervisors: Professor Prof. Jonathan Patrick & Prof. Antoine Sauré
 
 * 2013-2014: Health Economist
-  * Currency Department, Health Quality Ontario.
+  * Health Quality Ontario.
 
 * 2012-2014: Health Economist
-  * Currency Department, Pivina Consulting Inc.
+  * Pivina Consulting Inc.
   
 Technical Skills
 ======
