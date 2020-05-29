@@ -9,7 +9,4 @@ venue: 'Medical Decision Making'
 ---
 
 
-(https://journals.sagepub.com/doi/10.1177/0272989X20915241)
-
-
 
