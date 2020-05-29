@@ -11,22 +11,29 @@ redirect_from:
 
 Education
 ======
-* B.S. in Industrial Engineering, Qafqaz University, 2007
-* M.S. in Industrial Engineering, University of Pittsburgh, 2010
-* M.S. in Biostatistics & Epidemiology, Western University, 2012
+
 * Ph.D in Advanced Analytics, Telfer School of Management, University of Management, 2020 (expected)
+* M.S. in Biostatistics & Epidemiology, Western University, 2012
+* M.S. in Industrial Engineering, University of Pittsburgh, 2010
+* B.S. in Industrial Engineering, Qafqaz University, 2007
+
 
 Work experience
 ======
-* 2019-: Analyst
-  * Currency Department
-  * Bank of Canada
+* September 2019-: Analyst
+  * Currency Department, Bank of Canada
 
-* Fall 2016: Research Assistant
+* Fall 2016 - : Research Assistant
   * Telfer School of Management, University of Ottawa
   * Supervisors: Professor Prof. Jonathan Patrick & Prof. Antoine Sauré
+
+* 2013-2014: Health Economist
+  * Currency Department, Health Quality Ontario.
+
+* 2012-2014: Health Economist
+  * Currency Department, Pivina Consulting Inc.
   
-Skills
+Technical Skills
 ======
 * Python
 * R
