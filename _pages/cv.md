@@ -18,15 +18,13 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2019-: Analyst
+  * Currency Department
+  * Bank of Canada
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2016: Research Assistant
+  * Telfer School of Management, University of Ottawa
+  * Supervisors: Professor Prof. Jonathan Patrick & Prof. Antoine Sauré
   
 Skills
 ======
