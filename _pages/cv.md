@@ -57,3 +57,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+  PDF Version {files/cv vusal.pdf}
