@@ -20,10 +20,10 @@ Education
 
 Work experience
 ======
-* September 2019-: Analyst
+* September 2019 - Present: Analyst
   * Currency Department, Bank of Canada
 
-* Fall 2016 - : Research Assistant
+* Fall 2016 - Present: Research Assistant
   * Telfer School of Management, University of Ottawa
 
 * 2013-2014: Health Economist
