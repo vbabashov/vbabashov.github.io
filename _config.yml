@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Vusal's Website"
+title                    : "Personal Website"
 title_separator          : "-"
 name                     : &name "Vusal"
 description              : &description "PhD Candidate, University of Ottawa"
