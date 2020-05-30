@@ -4,6 +4,6 @@ collection: talks
 type: "Conference"
 permalink: /talks/2011-informs
 venue: "INFORMS Annual Meeting"
-date: 2017-11-13
+date: 2011-11-13
 location: "Charlotte, NC"
 ---
