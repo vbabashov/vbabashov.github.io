@@ -12,4 +12,4 @@ I’m a Ph.D candidate in Advanced Analytics at Telfer School of Management, Uni
 
 My research interests surround machine learning and operations research in healthcare and finance.
 
-I am very passionate about solving the complex real life problems with the aid of analytics whenever possible.
+I am a firm believer of value of the advanced analytics in the solving real-life problems.
