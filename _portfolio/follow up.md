@@ -1,5 +1,5 @@
 ---
-title: "Follow-up Patient Scheduling"
+title: "When Do You Need to Have Your Next Appointment?"
 excerpt: "In many healthcare systems patients require multiple visits to a healthcare provider. In general, the first visit 
 is known as the consult visit and all the subsequent visits are known as the follow-up visits. The later typically occur 
 according to predefined booking guidelines. A Markov Decision Process model is used to efficiently allocate 
