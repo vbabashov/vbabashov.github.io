@@ -1,6 +1,6 @@
 ---
 title: "Bank Note Demand Forecasting"
-excerpt: " lick here for [Github]() repository."
+excerpt: " Click here for [Github]() repository."
 collection: portfolio
 ---
 
