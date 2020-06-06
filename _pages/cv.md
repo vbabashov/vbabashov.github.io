@@ -56,4 +56,5 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+Download detailed [CV](files/cv vusal.pdf) or brief [Resume](files/Resume.pdf).
