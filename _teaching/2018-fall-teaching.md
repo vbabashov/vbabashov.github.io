@@ -1,5 +1,5 @@
 ---
-title: "Business Analytics"
+title: "Business Analytics (ADM 2302)"
 collection: teaching
 type: "Undergraduate BCom course"
 permalink: /teaching/2018-fall-teaching
