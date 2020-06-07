@@ -1,1 +1,1 @@
-
+Canada is the 10th largest pharmaceutical market in the world. In 2015, drug sales amounted to $25 billion dollars. Public Plans: 42% Private Plans: 58%. Generics drugs sell at an average of 36% of brand prices represent 2/3 of prescriptions represent 1/4 of drug expenditures
