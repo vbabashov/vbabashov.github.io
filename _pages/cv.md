@@ -57,4 +57,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Download extended [CV](vbabashov/files/vusal_cv.pdf) or [Resume](vbabashov.github.io/files/vusal_resume.pdf).
+Download extended [CV](files/vusal_cv.pdf) or [Resume](files/vusal_resume.pdf).
