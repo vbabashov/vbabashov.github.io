@@ -33,6 +33,9 @@ Work experience
 * 2012-2014: Health Economist
   * Pivina Consulting Inc.
   
+* 2006-2008: Data Analyst, Planner & Scheduler
+  * British Petroleum (BP)
+ 
 Technical Skills
 ======
 * Python
