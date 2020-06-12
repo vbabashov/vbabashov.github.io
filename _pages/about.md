@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a Ph.D candidate in Advanced Analytics at Telfer School of Management, University of Ottawa. 
+I’m a Ph.D candidate in Advanced Analytics at the Telfer School of Management, University of Ottawa. 
 
 My research interests surround machine learning and operations research in healthcare and finance.
 
