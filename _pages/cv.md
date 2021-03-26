@@ -13,15 +13,15 @@ redirect_from:
 Education
 ======
 
-* Ph.D in Advanced Analytics, Telfer School of Management, University of Management, 2020 (expected)
-* M.S. in Biostatistics & Epidemiology, Western University, 2012
+* Ph.D in Advanced Analytics, Telfer School of Management, University of Management, 2021 (completed)
+* M.S. in Biostatistics, Western University, 2012
 * M.S. in Industrial Engineering, University of Pittsburgh, 2010
 * B.S. in Industrial Engineering, Qafqaz University, 2007
 
 
 Work experience
 ======
-* September 2019 - Present: Analyst
+* September 2019 - July 2020: Analyst
   * Currency Department, Bank of Canada
 
 * Fall 2016 - Present: Research Assistant
@@ -33,8 +33,6 @@ Work experience
 * 2012-2014: Health Economist
   * Pivina Consulting Inc.
   
-* 2006-2008: Data Analyst, Planner & Scheduler
-  * British Petroleum (BP)
  
 Technical Skills
 ======
