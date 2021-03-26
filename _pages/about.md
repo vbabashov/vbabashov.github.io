@@ -10,6 +10,6 @@ redirect_from:
 
 Welcome to my webpage!
 
-I speacialize in applied Data Science and Operations and I have PhD degree in Management Analytics. I love solving machine learning and operations research in healthcare and financial services.
+I speacialize in applied Data Science and Operations and I've PhD degree in Management Analytics. I strive to solve interesting machine learning and operations research in financial services.
 
 
