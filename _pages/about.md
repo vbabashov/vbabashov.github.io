@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my webpage!
 
-I speacialize in applied Data Science and Operations and I've PhD degree in Management Analytics. I strive to solve interesting machine learning and operations research in financial services.
+Hello, I've a PhD degree in Management Analytics and I speacialize in solving practical Data Science/Machine Learning and Operations Research problems.
+
+Specifically, I strive to solve interesting and practical problems in finance and economics.
 
 
