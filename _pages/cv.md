@@ -13,7 +13,7 @@ redirect_from:
 Education
 ======
 
-* Ph.D in Management Analytics, Telfer School of Management, University of Management, 2021 (completed)
+* Ph.D in Management Analytics, Telfer School of Management, University of Ottawa, 2021 (completed)
 * M.S. in Biostatistics, Western University, 2012
 * M.S. in Industrial Engineering, University of Pittsburgh, 2010
 * B.S. in Industrial Engineering, Qafqaz University, 2007
