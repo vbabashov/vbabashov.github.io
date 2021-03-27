@@ -9,8 +9,8 @@ redirect_from:
 ---
 
 
-I've a PhD degree in Management Analytics and I speacialize in solving practical Data Science/Machine Learning and Operations Research problems.
+I am very passionate about solving practical Data Science/Machine Learning and Operations Research problems. Specifically, I strive to solve interesting and practical problems in finance and economics domains.
 
-Specifically, I strive to solve interesting and practical problems in finance and economics.
+Check this website frequently, as I am going to share interesting use cases.
 
 
