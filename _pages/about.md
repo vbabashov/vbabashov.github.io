@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am very passionate about solving practical Data Science/Machine Learning and Operations Research problems. Specifically, I strive to solve interesting and practical problems in finance and economics domains.
+I am very passionate about solving practical Machine Learning and Operations Research problems specifically in finance and healthcare.
 
 Check this website frequently, as I am going to share interesting use cases.
 
