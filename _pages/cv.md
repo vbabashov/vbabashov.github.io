@@ -59,4 +59,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Download [Resume](https://github.com/vbabashov/vbabashov.github.io/blob/master/files/two%20page%20resume.v1.pdf).
+Download [Resume](https://github.com/vbabashov/vbabashov.github.io/blob/master/files/resume.pdf).
