@@ -55,57 +55,6 @@ redirect_from:
 
 <hr class="section-divider">
 
-<!-- Featured Work Section -->
-<section class="home-section">
-  <h2 class="home-section__title">Featured Work</h2>
-  <p class="home-section__subtitle">Selected projects demonstrating applied problem-solving across domains.</p>
-
-  <div class="work-grid">
-    {% assign featured_work = site.work | where: "featured", true | sort: "sort_order" %}
-    {% for post in featured_work %}
-      <a href="{{ base_path }}{{ post.url }}" class="work-card">
-        {% if post.category %}
-          <div class="work-card__category">{{ post.category }}</div>
-        {% endif %}
-        <h3 class="work-card__title">{{ post.title }}</h3>
-        <p class="work-card__excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
-        {% if post.methods %}
-          <div class="work-card__tags">
-            {% for method in post.methods limit:4 %}
-              <span class="work-card__tag">{{ method }}</span>
-            {% endfor %}
-          </div>
-        {% endif %}
-      </a>
-    {% endfor %}
-  </div>
-</section>
-
-<hr class="section-divider">
-
-<!-- Selected Research Section -->
-<section class="home-section">
-  <h2 class="home-section__title">Selected Research</h2>
-  <p class="home-section__subtitle">Peer-reviewed publications in healthcare analytics, optimization, and AI.</p>
-
-  <ul class="research-list">
-    {% for post in site.publications reversed limit:3 %}
-      <li class="research-list__item">
-        <div class="research-list__title">
-          <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-        </div>
-        {% if post.venue %}
-          <div class="research-list__meta">{{ post.venue }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</div>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p style="margin-top: 1rem;"><a href="{{ base_path }}/research/">View all research →</a></p>
-</section>
-
-<hr class="section-divider">
-
 <!-- About Brief Section -->
 <section class="home-section">
   <h2 class="home-section__title">About</h2>
