@@ -676,17 +676,36 @@ $sand: #D9C5A1;
 }
 
 /* ---------- Scroll / Overflow Fix ---------- */
-html, body {
+/* Override the AcademicPages sticky footer hack (position:absolute on .page__footer
+   + padding-bottom:9em on body + min-height:100% on html). Replace with flexbox. */
+html {
+  min-height: 100vh;
+  height: auto !important;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: auto !important;
   overflow-x: hidden;
   overflow-y: auto !important;
-  height: auto !important;
+  padding-bottom: 0 !important;
 }
 
-#main {
-  overflow: visible;
+.page__footer {
+  position: relative !important;
+  bottom: auto !important;
+  margin-top: auto;
 }
 
+/* Ensure main content area can expand naturally */
+.home-page,
+.inner-page,
+#main,
 .archive {
+  flex: 1 0 auto;
   overflow: visible;
 }
 
