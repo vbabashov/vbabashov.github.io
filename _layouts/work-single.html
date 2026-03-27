@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div class="work-detail">
+  {% if page.category %}
+    <span class="work-detail__category">{{ page.category }}</span>
+  {% endif %}
+
+  <h1 class="work-detail__title">{{ page.title }}</h1>
+
+  {% if page.summary %}
+    <div class="work-detail__summary">
+      {{ page.summary | markdownify }}
+    </div>
+  {% endif %}
+
+  {% if page.domain or page.methods or page.tools or page.impact %}
+    <div class="work-detail__meta">
+      {% if page.domain %}
+        <div class="work-detail__meta-group">
+          <h4>Domain</h4>
+          <p>{{ page.domain }}</p>
+        </div>
+      {% endif %}
+      {% if page.methods %}
+        <div class="work-detail__meta-group">
+          <h4>Methods</h4>
+          <ul>
+            {% for method in page.methods %}
+              <li>{{ method }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      {% if page.tools %}
+        <div class="work-detail__meta-group">
+          <h4>Tools</h4>
+          <ul>
+            {% for tool in page.tools %}
+              <li>{{ tool }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      {% if page.impact %}
+        <div class="work-detail__meta-group">
+          <h4>Impact / Outcome</h4>
+          <p>{{ page.impact }}</p>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="work-detail__content">
+    {{ content }}
+  </div>
+
+  {% if page.github_url or page.paper_url %}
+    <div class="work-detail__links">
+      {% if page.github_url %}
+        <a href="{{ page.github_url }}" class="hero__cta hero__cta--secondary" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i> View on GitHub
+        </a>
+      {% endif %}
+      {% if page.paper_url %}
+        <a href="{{ page.paper_url }}" class="hero__cta hero__cta--secondary" target="_blank">
+          <i class="fas fa-file-alt" aria-hidden="true"></i> Read Paper
+        </a>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>

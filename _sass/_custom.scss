@@ -1,0 +1,464 @@
+/* ==========================================================================
+   Custom Component Styles — Website Renovation Phase 1
+   ========================================================================== */
+
+/* Color variables for reference */
+$graphite: #1F2933;
+$off-white: #F8F7F4;
+$steel-blue: #486581;
+$teal: #2CB1BC;
+$sand: #D9C5A1;
+
+/* ---------- Hero Section ---------- */
+.hero {
+  text-align: center;
+  padding: 4rem 1.5rem 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+
+  &__title {
+    font-family: "Fraunces", serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: $graphite;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+
+    @media (max-width: 600px) {
+      font-size: 2rem;
+    }
+  }
+
+  &__subtitle {
+    font-size: 1.15rem;
+    color: $steel-blue;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__cta-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+  }
+
+  &__cta {
+    display: inline-block;
+    padding: 0.65rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+
+    &--primary {
+      background: $teal;
+      color: #fff;
+
+      &:hover {
+        background: darken($teal, 8%);
+        color: #fff;
+      }
+    }
+
+    &--secondary {
+      background: transparent;
+      color: $steel-blue;
+      border: 1.5px solid $steel-blue;
+
+      &:hover {
+        background: $steel-blue;
+        color: #fff;
+      }
+    }
+  }
+}
+
+/* ---------- Section Layout ---------- */
+.home-section {
+  padding: 3rem 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+
+  &__title {
+    font-family: "Fraunces", serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: $graphite;
+    margin-bottom: 0.5rem;
+  }
+
+  &__subtitle {
+    color: $steel-blue;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  &--alt {
+    background: #fff;
+  }
+}
+
+.section-divider {
+  border: none;
+  border-top: 1px solid darken($off-white, 6%);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ---------- Capability Pillars ---------- */
+.capabilities {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.capability-card {
+  padding: 1.5rem;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid darken($off-white, 5%);
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-color: $teal;
+  }
+
+  &__icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+
+  &__title {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: $graphite;
+    margin-bottom: 0.5rem;
+  }
+
+  &__desc {
+    font-size: 0.85rem;
+    color: $steel-blue;
+    line-height: 1.5;
+  }
+}
+
+/* ---------- Work Cards ---------- */
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.work-card {
+  background: #fff;
+  border: 1px solid darken($off-white, 5%);
+  border-radius: 6px;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: block;
+
+  &:hover {
+    border-color: $teal;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transform: translateY(-2px);
+  }
+
+  &__category {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $teal;
+    margin-bottom: 0.5rem;
+  }
+
+  &__title {
+    font-family: "Fraunces", serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: $graphite;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+  }
+
+  &__excerpt {
+    font-size: 0.85rem;
+    color: $steel-blue;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  &__tag {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    background: $off-white;
+    color: $steel-blue;
+    border: 1px solid darken($off-white, 8%);
+  }
+}
+
+/* ---------- Research List ---------- */
+.research-list {
+  list-style: none;
+  padding: 0;
+
+  &__item {
+    padding: 1rem 0;
+    border-bottom: 1px solid darken($off-white, 5%);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__title {
+    font-weight: 600;
+    color: $graphite;
+    font-size: 0.95rem;
+    margin-bottom: 0.25rem;
+
+    a {
+      color: $graphite;
+      text-decoration: none;
+
+      &:hover {
+        color: $teal;
+      }
+    }
+  }
+
+  &__meta {
+    font-size: 0.8rem;
+    color: lighten($steel-blue, 10%);
+  }
+}
+
+/* ---------- About Brief ---------- */
+.about-brief {
+  max-width: 700px;
+
+  p {
+    line-height: 1.7;
+    color: $steel-blue;
+  }
+}
+
+/* ---------- Footer CTA ---------- */
+.footer-cta {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+
+  &__title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: $graphite;
+    margin-bottom: 0.5rem;
+  }
+
+  &__text {
+    color: $steel-blue;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  &__links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    a {
+      color: $steel-blue;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: $teal;
+      }
+
+      i {
+        margin-right: 0.3rem;
+      }
+    }
+  }
+}
+
+/* ---------- Work Archive Page ---------- */
+.work-archive {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+
+  &__header {
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: $graphite;
+    margin-bottom: 0.5rem;
+  }
+
+  &__subtitle {
+    color: $steel-blue;
+    font-size: 1rem;
+  }
+}
+
+/* ---------- Work Single Page ---------- */
+.work-detail {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+
+  &__title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: $graphite;
+    margin-bottom: 0.5rem;
+  }
+
+  &__category {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $teal;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+  }
+
+  &__summary {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: $steel-blue;
+    margin-bottom: 2rem;
+    border-left: 3px solid $teal;
+    padding-left: 1rem;
+  }
+
+  &__meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid darken($off-white, 5%);
+  }
+
+  &__meta-group {
+    h4 {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: lighten($steel-blue, 10%);
+      margin-bottom: 0.4rem;
+    }
+
+    p, ul {
+      font-size: 0.9rem;
+      color: $graphite;
+      margin: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 0.15rem;
+      }
+    }
+  }
+
+  &__content {
+    line-height: 1.7;
+
+    h2, h3, h4 {
+      font-family: "Fraunces", serif;
+      color: $graphite;
+    }
+  }
+
+  &__links {
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+}
+
+/* ---------- Improved Footer ---------- */
+.page__footer {
+  background: $graphite;
+  color: rgba(255, 255, 255, 0.7);
+
+  a {
+    color: rgba(255, 255, 255, 0.85);
+
+    &:hover {
+      color: $teal;
+    }
+  }
+}
+
+.footer-custom {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  &__section {
+    h4 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 0.75rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-bottom: 0.35rem;
+      }
+
+      a {
+        font-size: 0.85rem;
+        text-decoration: none;
+      }
+    }
+  }
+}

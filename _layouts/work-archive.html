@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="work-archive">
+  <div class="work-archive__header">
+    <h1 class="work-archive__title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p class="work-archive__subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </div>
+
+  <div class="work-grid">
+    {% assign sorted_work = site.work | sort: "sort_order" %}
+    {% for post in sorted_work %}
+      <a href="{{ base_path }}{{ post.url }}" class="work-card">
+        {% if post.category %}
+          <div class="work-card__category">{{ post.category }}</div>
+        {% endif %}
+        <h2 class="work-card__title">{{ post.title }}</h2>
+        {% if post.excerpt %}
+          <p class="work-card__excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        {% endif %}
+        {% if post.methods %}
+          <div class="work-card__tags">
+            {% for method in post.methods %}
+              <span class="work-card__tag">{{ method }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </a>
+    {% endfor %}
+  </div>
+</div>
