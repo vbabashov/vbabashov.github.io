@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: "Resume"
-subtitle: "Principal Data Scientist — Retail AI/ML, Forecasting, Optimization & Analytics Delivery"
+subtitle: "Principal Data Scientist"
 permalink: /resume/
 redirect_from:
   - /cv/
