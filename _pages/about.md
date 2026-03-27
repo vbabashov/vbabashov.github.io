@@ -12,7 +12,7 @@ redirect_from:
 <!-- Hero Section -->
 <section class="hero">
   <img src="{{ base_path }}/images/U17A1308.jpg" alt="Vusal Babashov" class="hero__photo">
-  <h1 class="hero__title">Building production AI/ML, forecasting, and decision systems that drive measurable business impact.</h1>
+  <h1 class="hero__title">Building applied AI systems that drive measurable business impact.</h1>
   <p class="hero__subtitle">Principal Data Scientist with 10+ years designing, building, and deploying production-grade machine learning, optimization, forecasting, and AI solutions across retail, healthcare, and public-sector environments.</p>
   <div class="hero__cta-group">
     <a href="{{ base_path }}/work/" class="hero__cta hero__cta--primary">View Work</a>
