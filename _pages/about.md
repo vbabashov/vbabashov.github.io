@@ -32,23 +32,18 @@ redirect_from:
   <div class="capabilities">
     <div class="capability-card">
       <span class="capability-card__icon">🤖</span>
-      <h3 class="capability-card__title">Applied AI &amp; LLM Solutions</h3>
-      <p class="capability-card__desc">Agentic RAG systems, LLM fine-tuning (LoRA/QLoRA), prompt orchestration, evaluation workflows, and production-oriented AI architectures.</p>
+      <h3 class="capability-card__title">GenAI &amp; Agentic AI</h3>
+      <p class="capability-card__desc">Agentic RAG systems, LLM fine-tuning (LoRA/QLoRA), embeddings, orchestration, evaluation workflows, context engineering, and AI architectures.</p>
     </div>
     <div class="capability-card">
       <span class="capability-card__icon">📊</span>
-      <h3 class="capability-card__title">Machine Learning &amp; Predictive Analytics</h3>
-      <p class="capability-card__desc">Production ML pipelines for recommender systems, false in-stock detection, classification, and predictive analytics using XGBoost, LightGBM, and CatBoost.</p>
-    </div>
-    <div class="capability-card">
-      <span class="capability-card__icon">📈</span>
-      <h3 class="capability-card__title">Forecasting &amp; Time-Series</h3>
-      <p class="capability-card__desc">Time-series forecasting for capacity planning and demand prediction using STL, TBATS, dynamic harmonic regression, LSTM, and ensemble methods.</p>
+      <h3 class="capability-card__title">Machine Learning &amp; Deep Learning</h3>
+      <p class="capability-card__desc">Recommender systems, time-series forecasting, classification, and regression using bagging and boosting algorithms.</p>
     </div>
     <div class="capability-card">
       <span class="capability-card__icon">⚙️</span>
-      <h3 class="capability-card__title">Optimization &amp; Decision Systems</h3>
-      <p class="capability-card__desc">Staff scheduling optimization (Gurobi), discrete-event simulation, dynamic programming, and decision-support systems delivering measurable cost savings.</p>
+      <h3 class="capability-card__title">Operations Research &amp; Optimization</h3>
+      <p class="capability-card__desc">Linear programming, mixed-integer programming, discrete-event simulation, approximate dynamic programming, and multi-criteria decision analysis.</p>
     </div>
   </div>
 </section>
