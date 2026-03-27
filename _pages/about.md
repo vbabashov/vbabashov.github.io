@@ -11,8 +11,9 @@ redirect_from:
 
 <!-- Hero Section -->
 <section class="hero">
-  <h1 class="hero__title">I build applied AI, forecasting, and decision systems for complex real-world problems.</h1>
-  <p class="hero__subtitle">Applied Scientist with expertise across machine learning, optimization, simulation, and time-series forecasting — turning analytical methods into operational solutions.</p>
+  <img src="{{ base_path }}/images/U17A1308.jpg" alt="Vusal Babashov" class="hero__photo">
+  <h1 class="hero__title">Building production AI/ML, forecasting, and decision systems that drive measurable business impact.</h1>
+  <p class="hero__subtitle">Principal Data Scientist with 10+ years designing, building, and deploying production-grade machine learning, optimization, forecasting, and AI solutions across retail, healthcare, and public-sector environments.</p>
   <div class="hero__cta-group">
     <a href="{{ base_path }}/work/" class="hero__cta hero__cta--primary">View Work</a>
     <a href="{{ base_path }}/resume/" class="hero__cta hero__cta--secondary">Resume</a>
@@ -32,22 +33,22 @@ redirect_from:
     <div class="capability-card">
       <span class="capability-card__icon">🤖</span>
       <h3 class="capability-card__title">Applied AI &amp; LLM Solutions</h3>
-      <p class="capability-card__desc">Building AI-powered applications including LLM-enabled product question-answering systems and intelligent automation.</p>
+      <p class="capability-card__desc">Agentic RAG systems, LLM fine-tuning (LoRA/QLoRA), prompt orchestration, evaluation workflows, and production-oriented AI architectures.</p>
     </div>
     <div class="capability-card">
       <span class="capability-card__icon">📊</span>
       <h3 class="capability-card__title">Machine Learning &amp; Predictive Analytics</h3>
-      <p class="capability-card__desc">Regression, classification, and ensemble methods for prediction tasks across finance, healthcare, and operations.</p>
+      <p class="capability-card__desc">Production ML pipelines for recommender systems, false in-stock detection, classification, and predictive analytics using XGBoost, LightGBM, and CatBoost.</p>
     </div>
     <div class="capability-card">
       <span class="capability-card__icon">📈</span>
       <h3 class="capability-card__title">Forecasting &amp; Time-Series</h3>
-      <p class="capability-card__desc">Classical and deep learning approaches for demand forecasting, including STL, TBATS, LSTM, and gradient boosting.</p>
+      <p class="capability-card__desc">Time-series forecasting for capacity planning and demand prediction using STL, TBATS, dynamic harmonic regression, LSTM, and ensemble methods.</p>
     </div>
     <div class="capability-card">
       <span class="capability-card__icon">⚙️</span>
       <h3 class="capability-card__title">Optimization &amp; Decision Systems</h3>
-      <p class="capability-card__desc">Mathematical optimization, simulation, dynamic programming, and multi-criteria decision analysis for operational decision-making.</p>
+      <p class="capability-card__desc">Staff scheduling optimization (Gurobi), discrete-event simulation, dynamic programming, and decision-support systems delivering measurable cost savings.</p>
     </div>
   </div>
 </section>
@@ -109,8 +110,8 @@ redirect_from:
 <section class="home-section">
   <h2 class="home-section__title">About</h2>
   <div class="about-brief">
-    <p>I'm an Applied Scientist with a PhD in Operations Research and a background in engineering and statistics. I specialize in using machine learning, optimization, simulation, and forecasting to solve complex business and operational problems across healthcare, finance, and technology.</p>
-    <p>My work bridges research rigor with practical implementation — from dynamic programming models for patient scheduling to deep learning pipelines for demand forecasting. I'm driven by the challenge of turning analytical methods into systems that support better real-world decisions.</p>
+    <p>I'm a Principal Data Scientist with a PhD in Operations Research and 10+ years of experience designing and deploying production-grade AI/ML solutions. Currently at Canadian Tire Corporation, I build recommender systems, production ML models, optimization engines, and agentic AI systems across retail operations.</p>
+    <p>My work spans the full analytical lifecycle — from data ingestion and feature engineering to model development, validation, deployment, and stakeholder communication. I bring deep expertise in Python, SQL, Spark, Databricks, and MLflow, with a strong track record of translating ambiguous business problems into scalable solutions and measurable outcomes.</p>
   </div>
 </section>
 
@@ -119,7 +120,7 @@ redirect_from:
 <!-- Footer CTA Section -->
 <section class="footer-cta">
   <h2 class="footer-cta__title">Let's Connect</h2>
-  <p class="footer-cta__text">Interested in collaboration, speaking, or discussing applied AI/ML work?</p>
+  <p class="footer-cta__text">Open to collaboration, speaking opportunities, or conversations about applied AI/ML and data science.</p>
   <div class="footer-cta__links">
     <a href="mailto:vbabashov@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
     <a href="https://github.com/vbabashov" target="_blank"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>

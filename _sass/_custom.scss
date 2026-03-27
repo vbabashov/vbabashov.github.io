@@ -462,3 +462,241 @@ $sand: #D9C5A1;
     }
   }
 }
+
+/* ---------- Inner Page Layout ---------- */
+.inner-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+
+  &__header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid darken($off-white, 6%);
+  }
+
+  &__title {
+    font-family: "Fraunces", serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: $graphite;
+    margin-bottom: 0.4rem;
+  }
+
+  &__subtitle {
+    font-size: 1rem;
+    color: $steel-blue;
+    line-height: 1.5;
+  }
+
+  &__content {
+    line-height: 1.7;
+    color: $graphite;
+
+    h2 {
+      font-family: "Fraunces", serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: $graphite;
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid darken($off-white, 6%);
+    }
+
+    h3 {
+      font-family: "Fraunces", serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: $graphite;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+
+    ul, ol {
+      margin-bottom: 1rem;
+      padding-left: 1.25rem;
+
+      li {
+        font-size: 0.95rem;
+        margin-bottom: 0.35rem;
+        line-height: 1.6;
+      }
+    }
+
+    a {
+      color: $steel-blue;
+      text-decoration: none;
+
+      &:hover {
+        color: $teal;
+      }
+    }
+
+    /* Research / publication list on inner pages */
+    .archive__item {
+      padding: 1rem 0;
+      border-bottom: 1px solid darken($off-white, 4%);
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    .archive__item-title {
+      font-family: "Fraunces", serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: $graphite;
+      margin-bottom: 0.25rem;
+
+      a {
+        color: $graphite;
+        text-decoration: none;
+
+        &:hover {
+          color: $teal;
+        }
+      }
+    }
+
+    .archive__item-excerpt {
+      font-size: 0.85rem;
+      color: $steel-blue;
+      line-height: 1.5;
+    }
+  }
+}
+
+/* ---------- Resume Page ---------- */
+.resume-section {
+  margin-bottom: 2rem;
+
+  &__role {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    border-left: 3px solid $teal;
+  }
+
+  &__role-title {
+    font-weight: 600;
+    color: $graphite;
+    font-size: 1rem;
+    margin-bottom: 0.15rem;
+  }
+
+  &__role-company {
+    font-weight: 600;
+    color: $steel-blue;
+    font-size: 0.95rem;
+  }
+
+  &__role-date {
+    font-size: 0.8rem;
+    color: lighten($steel-blue, 15%);
+    margin-bottom: 0.5rem;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      position: relative;
+      padding-left: 1rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+      line-height: 1.55;
+      color: $graphite;
+
+      &::before {
+        content: "–";
+        position: absolute;
+        left: 0;
+        color: $teal;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.resume-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.5rem;
+  background: $teal;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  margin-bottom: 2rem;
+
+  &:hover {
+    background: darken($teal, 8%);
+    color: #fff;
+  }
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.skill-category {
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid darken($off-white, 5%);
+  border-radius: 6px;
+
+  &__title {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $teal;
+    margin-bottom: 0.4rem;
+  }
+
+  &__items {
+    font-size: 0.85rem;
+    color: $graphite;
+    line-height: 1.5;
+  }
+}
+
+/* ---------- Scroll / Overflow Fix ---------- */
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto !important;
+  height: auto !important;
+}
+
+#main {
+  overflow: visible;
+}
+
+.archive {
+  overflow: visible;
+}
+
+/* ---------- Hero Photo ---------- */
+.hero__photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}

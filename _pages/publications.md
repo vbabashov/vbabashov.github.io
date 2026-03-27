@@ -1,17 +1,17 @@
 ---
-layout: archive
+layout: inner
 title: "Research"
+subtitle: "Peer-reviewed publications in healthcare analytics, optimization, and AI."
 permalink: /research/
-author_profile: true
 redirect_from:
   - /publications/
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
 {% include base_path %}
+
+{% if site.author.googlescholar %}
+You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+{% endif %}
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
