@@ -94,6 +94,16 @@ Principal Data Scientist with 10+ years of experience designing, building, valid
       <li>Developed health economic evaluation models using decision trees, Markov chains, cohort simulations, and SAS to support evidence-based reimbursement decisions.</li>
     </ul>
   </div>
+
+  <div class="resume-section__role">
+    <div class="resume-section__role-title">Research Assistant</div>
+    <div class="resume-section__role-company">Department of Epidemiology & Biostatistics, Western University</div>
+    <div class="resume-section__role-date">Sep 2010 – May 2012 · London, ON</div>
+    <ul class="resume-section__list">
+      <li>Built a cost-effectiveness model using survival analysis, Markov models, cohort simulation, SAS, and Ontario health datasets, informing a reimbursement recommendation in the Canadian healthcare system.</li>
+      <li>Developed a discrete-event simulation model to optimize staffing and reduce wait times for radiation treatment, improving patient throughput and resource utilization.</li>
+    </ul>
+  </div>
 </div>
 
 ## Certifications
