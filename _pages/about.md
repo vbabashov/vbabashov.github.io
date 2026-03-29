@@ -54,8 +54,8 @@ redirect_from:
 <section class="home-section">
   <h2 class="home-section__title">About</h2>
   <div class="about-brief">
-    <p>I'm a Principal Data Scientist with a PhD in Operations Research and 10+ years of experience designing and deploying production-grade AI/ML solutions. Currently at Canadian Tire Corporation, I build recommender systems, production ML models, optimization engines, and agentic AI systems across retail operations.</p>
-    <p>My work spans the full analytical lifecycle — from data ingestion and feature engineering to model development, validation, deployment, and stakeholder communication. I bring deep expertise in Python, SQL, Spark, Databricks, and MLflow, with a strong track record of translating ambiguous business problems into scalable solutions and measurable outcomes.</p>
+    <p>I'm a AI/ML Developer with a PhD in Applied Operations Research and 10+ years of experience designing and deploying advanced analytics and AI solutions using recommender systems, predictive models, prescriptive optimization engines, and agentic AI systems across retail and healthcare operations.</p>
+    <p>My work spans the full model dev lifecycle — from feature engineering to model development, validation, deployment, and stakeholder communication. I bring deep expertise in Python, SQL, Spark, Databricks, and MLflow, with a strong track record of translating ambiguous business problems into scalable solutions and measurable outcomes.</p>
   </div>
 </section>
 
